@@ -1,0 +1,36 @@
+body{
+
+    --positve:#00B37E;
+    --negative: #F75A68;
+
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    background-color: #3E475F;
+
+    .input{
+            
+            background-color:#121214;
+            color: whitesmoke;
+
+            >input{
+                color: whitesmoke;
+            }
+    }
+
+    .card{
+        background-color: #29292E;
+        color: whitesmoke;
+
+    }
+
+    .positive{
+        color: var(--positve);
+    }
+    
+    .negative{
+        color: var(--negative);
+    }
+}
